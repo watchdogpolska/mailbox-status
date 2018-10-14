@@ -1,7 +1,4 @@
-language: node:10
+language: node_js
 
-install:
-  - npm ci
-
-script:
-  - npx ava test.js
+node_js:
+  - "10"
