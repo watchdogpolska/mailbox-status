@@ -1,0 +1,28 @@
+{
+  "name": "mailbox-status",
+  "version": "1.0.0",
+  "description": "Microservice to provide informat about IMAP mailbox via HTTP",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watchdogpolska/mailbox-status.git"
+  },
+  "author": "Adam Dobrawy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watchdogpolska/mailbox-status/issues"
+  },
+  "homepage": "https://github.com/watchdogpolska/mailbox-status#readme",
+  "dependencies": {
+    "async-json": "https://github.com/ckknight/async-json/archive/efbb93296c0a8dfdae7bea77f207b910dd147034.tar.gz",
+    "imap": "^0.8.19",
+    "koa": "^2.5.3",
+    "koa-logger": "^3.2.0"
+  },
+  "devDependencies": {
+    "ava": "1.0.0-beta.8"
+  }
+}

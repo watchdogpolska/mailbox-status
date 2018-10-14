@@ -1,0 +1,7 @@
+language: node:10
+
+install:
+  - npm ci
+
+script:
+  - npx ava test.js
