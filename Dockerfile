@@ -3,4 +3,4 @@ WORKDIR /src
 COPY ./package*.json ./
 RUN npm ci
 COPY ./ ./
-CMD ['nodejs', 'index.js']
+CMD node index.js
